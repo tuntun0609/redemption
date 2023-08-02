@@ -5,13 +5,14 @@
   "description": "redeem your history",
   "author": "tuntun",
   "scripts": {
-    "dev": "plasmo dev",
-    "build": "plasmo build",
+    "start": "plasmo dev",
+    "build": "plasmo build --zip",
     "test": "plasmo test"
   },
   "dependencies": {
     "@plasmohq/storage": "^1.7.2",
     "antd": "^5.8.1",
+    "dayjs": "^1.11.9",
     "plasmo": "0.82.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -28,6 +29,10 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
+    ],
+    "permissions": [
+      "history",
+      "alarms"
     ]
   }
 }
