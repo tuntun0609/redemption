@@ -2,7 +2,7 @@
   "name": "redemption",
   "displayName": "Redemption",
   "version": "0.0.1",
-  "description": "redeem your history",
+  "description": "redeem your browser history",
   "author": "tuntun",
   "scripts": {
     "start": "plasmo dev",
