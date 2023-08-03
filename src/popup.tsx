@@ -21,8 +21,8 @@ function IndexPopup() {
   const [lastTime, setLastTime] = useStorage({
     key: LAST_START_BROWSER_TIME,
     instance: new Storage({
-      area: 'local'
-    })
+      area: 'local',
+    }),
   })
   const lastTimeDayjs = useMemo(() => dayjs(lastTime), [lastTime])
 

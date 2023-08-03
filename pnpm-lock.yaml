@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@ant-design/icons':
+    specifier: ^5.2.4
+    version: registry.npmmirror.com/@ant-design/icons@5.2.4(react-dom@18.2.0)(react@18.2.0)
   '@plasmohq/storage':
     specifier: ^1.7.2
     version: registry.npmmirror.com/@plasmohq/storage@1.7.2(react@18.2.0)

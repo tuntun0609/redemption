@@ -10,6 +10,7 @@
     "test": "plasmo test"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.4",
     "@plasmohq/storage": "^1.7.2",
     "antd": "^5.8.1",
     "dayjs": "^1.11.9",
